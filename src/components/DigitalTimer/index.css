@@ -1,0 +1,128 @@
+/* Write your CSS here */
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-image: linear-gradient(to bottom, #ffffff, #cffcf1, #defafe);
+  min-height: 100vh;
+}
+
+.heading {
+  text-align: center;
+}
+
+.bgImageMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgImage {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  align-self: stretch;
+}
+
+.whiteColoredBg {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.imageIcon {
+  height: 30px;
+  width: 30px;
+}
+
+.clockContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startAndPauseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.resetContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.increaseDecreaseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.numberContainer {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  height: 40px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.timer {
+  color: #00d9f5;
+  font-weight: bold;
+}
+
+.btnStartNdPause {
+  background-color: transparent;
+  border: 0px solid transparent;
+  cursor: pointer;
+}
+
+.incrementNdDecrement {
+  background-color: transparent;
+  border: 0px solid transparent;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (min-width: 767px) {
+  .bgImageMain {
+    flex-direction: row;
+    justify-content: baseline;
+  }
+  .bgImage {
+    height: 100vh;
+    width: 100vh;
+    background-position: 0% 0%;
+  }
+}
